@@ -33,7 +33,13 @@ Do not work directly on main.
 
 ### Task 3 — Add Your Entry
 
-Open `participants.md` and add a row with your name, institute, and favourite physics topic.
+Open `participants.md` and add a row with your name and answers to these:
+
+- One food you could eat every day without getting bored
+- Something everyone loves that you just don't get
+- The most useless superpower you would still choose
+
+Keep it honest.
 
 ---
 
