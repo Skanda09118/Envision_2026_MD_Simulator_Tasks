@@ -72,3 +72,9 @@ Use the Issues tab to flag something unclear, suggest a new task, or propose how
 ## Coming Soon — LAMMPS Files
 
 Sample input scripts, force field files, and analysis notebooks
+
+---
+
+## Questions
+
+Open an [issue](https://github.com/Skanda09118/Envision_2026_MD_Simulator_Tasks/issues) or bring it up in the next session.
