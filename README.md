@@ -53,7 +53,7 @@ A good commit message describes what you changed, not how.
 
 ### Task 5 — Open a Pull Request
 
-Once pushed, open a Pull Request from your fork back to this repository. Write a short description of what you did.
+Once pushed, open a Pull Request from your fork back to this repository. Write a short description of what you did in the readme file .
 
 ---
 
