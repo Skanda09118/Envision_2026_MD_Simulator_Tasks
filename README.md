@@ -70,7 +70,7 @@ Use the Issues tab to flag something unclear, suggest a new task, or propose how
 ---
 ### Task 8 — Learning basic Linux commands
 
-> Learn how to change directories , create new files and other basic linux navigation tasks.
+Learn how to change directories , create new files and other basic linux navigation tasks.
 
 ---
 
