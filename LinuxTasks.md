@@ -1,3 +1,7 @@
+# Note 
+If you use windows use windows subsystem for Linux .
+If you use Mac just do the same commands in terminal
+
 ---
 
 ### Task 1 — Move around
