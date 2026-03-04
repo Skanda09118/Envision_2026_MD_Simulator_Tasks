@@ -89,4 +89,5 @@ Open an [issue](https://github.com/Skanda09118/Envision_2026_MD_Simulator_Tasks/
 ## Resources to consider 
 
 > Chatgpt , Gemini , Claude , etc
->> Check out the [Github Playlist on Youtube](https://www.youtube.com/playlist?list=PL0lo9MOBetEFcp4SCWinBdpml9B2U25-f)
+
+> Check out the [Github Playlist on Youtube](https://www.youtube.com/playlist?list=PL0lo9MOBetEFcp4SCWinBdpml9B2U25-f)
