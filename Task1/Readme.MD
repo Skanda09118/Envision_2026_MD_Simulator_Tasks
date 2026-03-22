@@ -1,4 +1,4 @@
-markdown# Note
+# Note
 If you are on Windows, use Windows Subsystem for Linux (WSL). All commands below should be run inside your WSL terminal.
 
 ---
@@ -10,30 +10,32 @@ Install LAMMPS on your system using the package manager. Verify the installation
 sudo apt update && sudo apt install lammps -y
 ```
 
-> 📺 **Tutorial video:** 
-- Installing WSL [https://www.youtube.com/watch?v=zZf4YH4WiZo]
-- Installing LAMMPS on WSL [https://www.youtube.com/watch?v=kOuxvF_KvCk]
+**Tutorial videos**
+- Installing WSL — https://www.youtube.com/watch?v=zZf4YH4WiZo
+- Installing LAMMPS on WSL — https://www.youtube.com/watch?v=kOuxvF_KvCk
+
 ---
 
 ### Task 7 — Watch: What is Molecular Dynamics?
 
 Before running any simulations, build some intuition for what LAMMPS is actually doing under the hood.
 
-> 📺 **Watch this before moving on:** [https://www.youtube.com/watch?v=lLFEqKl3sm4]
+**Watch this before moving on** — https://www.youtube.com/watch?v=lLFEqKl3sm4
 
-There's nothing to submit here just watch it.
+There's nothing to submit here, just watch it.
 
 ---
 
 ### Task 8 — Watch: Your first LAMMPS input script
 
-These videos walks through the structure of a LAMMPS input file line by line. Pay attention to how units, atom styles, potentials, and the run command all fit together.
+These videos walk through the structure of a LAMMPS input file line by line. Pay attention to how units, atom styles, potentials, and the run command all fit together.
 
-> 📺 **Watch this before moving on:** 
-- [https://www.youtube.com/watch?v=GXA2PyqKYdY&list=PLEwB0P-kIa7JF9Vy2O-Az5mmeJFmnRExZ]
-- [https://www.youtube.com/watch?v=7Ila18g8zSY&list=PLEwB0P-kIa7JF9Vy2O-Az5mmeJFmnRExZ&index=2]
-- [https://www.youtube.com/watch?v=BOJPl9A7-K8&list=PLEwB0P-kIa7JF9Vy2O-Az5mmeJFmnRExZ&index=3]
-Again, nothing to submit, just watch it.
+**Watch these before moving on**
+- https://www.youtube.com/watch?v=GXA2PyqKYdY
+- https://www.youtube.com/watch?v=7Ila18g8zSY
+- https://www.youtube.com/watch?v=BOJPl9A7-K8
+
+Nothing to submit, just watch.
 
 ---
 
@@ -41,9 +43,8 @@ Again, nothing to submit, just watch it.
 
 This is the hello world of molecular dynamics — a small box of atoms interacting via a Lennard-Jones potential, the simplest model of how real atoms push and pull each other.
 
-Create a file called `in.firstLAMMPS` and understand the script provided below and then paste it into the file.
+Create a file called `in.firstLAMMPS`, read through the script below until you understand what each block is doing, then paste it in.
 ```lammps
-
 # A handful of atoms in a box, interacting via Lennard-Jones
 
 units           lj
@@ -83,8 +84,8 @@ lammps -in in.firstLAMMPS
 
 When it finishes, a file called `dump.firstLAMMPS.lammpstrj` will appear. This contains the positions of every atom at each snapshot — the raw output of your first MD simulation. Open it and take a look at what's inside.
 
-**Questions to think about before the next session:**
+**Questions to think about before the next session**
 - What does `boundary p p p` mean and why does it matter?
 - What is NVE integration conserving?
 - What do `pe`, `ke`, and `etotal` represent in the thermo output?
-- How do we visualise the dumpped file ? (will be answered through the next task)
+- How do we visualise the dumped file? (answered in the next task)
