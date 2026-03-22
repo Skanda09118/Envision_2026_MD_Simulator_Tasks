@@ -3,7 +3,7 @@ If you are on Windows, use Windows Subsystem for Linux (WSL). All commands below
 
 ---
 
-### Task 6 — Download and install LAMMPS
+### Task 1 — Download and install LAMMPS
 
 Install LAMMPS on your system using the package manager. Verify the installation worked by checking the version.
 ```bash
@@ -16,7 +16,7 @@ sudo apt update && sudo apt install lammps -y
 
 ---
 
-### Task 7 — Watch: What is Molecular Dynamics?
+### Task 2 — Watch: What is Molecular Dynamics?
 
 Before running any simulations, build some intuition for what LAMMPS is actually doing under the hood.
 
@@ -26,7 +26,7 @@ There's nothing to submit here, just watch it.
 
 ---
 
-### Task 8 — Watch: Your first LAMMPS input script
+### Task 3 — Watch: Your first LAMMPS input script
 
 These videos walk through the structure of a LAMMPS input file line by line. Pay attention to how units, atom styles, potentials, and the run command all fit together.
 
@@ -39,7 +39,7 @@ Nothing to submit, just watch.
 
 ---
 
-### Task 9 — Run your first LAMMPS simulation
+### Task 4 — Run your first LAMMPS simulation
 
 This is the hello world of molecular dynamics — a small box of atoms interacting via a Lennard-Jones potential, the simplest model of how real atoms push and pull each other.
 
